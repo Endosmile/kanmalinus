@@ -1,0 +1,896 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  
+  
+}
+
+--bs-secondary-color
+--bs-secondary-color-rgb
+a{
+  color: black;
+}
+
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f2f4f7 !important;
+}
+.sign-background{
+  background-image: url(/img/FB_IMG_1706353801404.jpg) !important;
+  height: 100vh !important;
+  height: 100vh !important;
+}
+
+.body-3{
+  background-color: black !important;
+  
+}
+.signuppage{
+ 
+  background-blend-mode: color-burn !important;
+
+}
+hr{
+  width: 450px !important;
+}
+
+.post-hr{
+  width: 400px !important;
+  align-self: center !important;
+}
+
+/* Second css begin */
+
+header{
+  z-index: 1000;
+  top: 0;
+  bottom: 0;
+  margin-top: 0px;
+  
+}
+
+
+
+.menubar{
+  width: 100%;
+}
+
+nav{
+  width:100%;
+  background: white;
+  padding: 8px;
+  
+  
+  
+ 
+}
+
+ul{
+ margin: 0px 5% ;
+ display: flex;
+ padding: 0px 50%;
+gap: 40px;
+}
+
+li{
+  justify-content: space-around;
+  align-content: center;
+  margin: 0px 7px 0px;
+  
+}
+
+
+ a{
+  justify-content: space-between !important;
+ justify-content: center;
+ text-align: center;
+ color: black;
+}
+
+
+
+.header_outer{
+  width:100%;
+  height:38px;
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+  background: #4468B0;
+  border-bottom:2px solid #29487d;
+
+}
+
+.header_outer .logo-2{
+  
+  color: white;
+  align-self: center;
+}
+
+.fa-facebook{
+  color:#fff;
+  margin-left: 15px;
+}
+.fa-facebook-messenger{
+  color: white !important;
+  
+}
+.fa-users{
+  color: white !important;
+}
+.fa-globe{
+  color: white !important;
+  
+}
+
+.header_outer .header_shells{
+  width: 40%;
+  display: flex;
+  padding:6px;
+  justify-content: space-around;
+  
+}
+
+.header_outer .header_shells:nth-child(1){
+  font-size: 23px;
+}
+
+.header_outer .header_shells:nth-child(1) .search_outer{
+  font-size: 16px;
+  width: 100%;
+  
+}
+
+.fa-search{
+  position: relative;
+  top:2px;
+  bottom: 2.5px;
+  left:40px;
+  font-size: 13px;
+  padding:2px;
+  height:11px;
+  padding-right:10px;
+}
+
+.sach-btn{
+  border: none;
+  border-radius: 100%;
+  background: none;
+
+}
+
+.header_outer .header_shells:nth-child(1) input[type=text]{
+  border: none;
+  padding:0.1px;
+  /* width:70%; */
+  border-radius: 30px;
+  margin-left: 50%;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  align-self: center;
+}
+
+/* header media query */
+/* header media querry */
+@media  screen and (min-width: 992px)  {
+
+  .logo-2-text {
+    font-family: "Poppins", sans-serif;
+    margin-left: 5px;
+    color: #1877f2;
+   
+  }
+
+  li{
+    justify-content: space-around;
+    width: 100%;
+    margin-left: 115px !important;
+    align-content: center;
+    text-align: center;
+
+  }
+
+  .menubar hr{
+    width: 1000% !important;
+    margin-left: 80.5px;
+    
+    
+  }
+
+  .img-card{
+    min-width: 100%;
+    padding: 6px;
+    justify-items: center;
+    gap: 100px;
+  }
+
+  .input-post input{
+
+    width: 500px !important;
+    
+  }
+
+   
+  
+}
+
+/* body posts */
+
+
+
+@media  screen and (min-width: 992px ) {
+ 
+  .container-fluid{
+    margin: -5px 0px 6px;
+  }
+
+  .card-text{
+    padding-left: 60px;
+    font-family:fantasy;
+  }
+
+  .picna{
+    max-width: fit-content;
+    margin: 50%;
+  }
+  .card-img {
+    padding-left: 20px;
+    padding-right: 30px;
+  }
+
+  .card-body img{
+    height: 400px;
+    width: 80%;
+    margin: 0px 100px 0px;
+  }
+}
+
+.side_txt{
+  font-size: 12px;
+  color:#fff;
+  font-family: Helvetica;
+  letter-spacing: 1px;
+  position: relative;
+  left:10px;
+}
+
+.side_txt:nth-child(3){
+  color:rgba(0,0,0,0.3);
+}
+
+.fa-user{
+  position: relative;
+  top:2px;
+  color:#fff;
+}
+
+#side_icons > * {
+  color:#1B2A46;
+  position: relative;
+  top:2px;
+}
+
+
+
+/* second css ends */
+
+body-1{
+  font-family: 'IBM Plex Mono';
+  color: black;
+}
+
+.background{
+   background-image: url(img/FB_IMG_1706353806921.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.flex-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.name-content {
+  margin-right: 7rem;
+  background: black;
+  opacity: 0.6 ;
+  border-radius: 15px;
+  
+}
+
+.name-content .logo {
+  font-size: 3.5rem;
+  color: #1877f2;
+}
+
+.name-content .logo-2{
+  color: red;
+}
+
+.name-content p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 5rem;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 2rem;
+  width: 530px;
+  height: 380px;
+  border-radius: 0.5rem;
+  
+}
+
+form input {
+  outline: none;
+  padding: 0.8rem 1rem;
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+}
+
+form input:focus {
+  border: 1.8px solid #1877f2;
+}
+
+form .login {
+  outline: none;
+  border: none;
+  background: #1877f2;
+  padding: 0.8rem 1rem;
+  border-radius: 0.4rem;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+form .login:hover {
+  background: #0f71f1;
+  cursor: pointer;
+}
+
+form a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 1rem;
+  padding-top: 0.8rem;
+  color: #1877f2;
+}
+
+form hr {
+  background: #f7f7f7;
+  margin: 1rem;
+}
+
+form .create-account {
+  outline: none;
+  border: none;
+  background: #06b909;
+  padding: 0.8rem 1rem;
+  border-radius: 0.4rem;
+  font-size: 1.1rem;
+  color: #fff;
+  width: 75%;
+  margin: 0 auto;
+}
+
+form .create-account:hover {
+  background: #03ad06;
+  cursor: pointer;
+}
+
+/* //.........Media Query.........// */
+
+@media (max-width: 500px) {
+  html {
+    font-size: 60%;
+  }
+
+  .name-content {
+    margin: 0;
+    text-align: center;
+  }
+
+  .name-content p{
+    font-size: 2rem;
+    margin: 10px;
+  }
+
+  form {
+    width: 300px;
+    height: fit-content;
+    margin-top: 10px;
+  }
+
+  form input {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+
+  form .login {
+    font-size: 1.5rem;
+  }
+
+  form a {
+    font-size: 1.5rem;
+  }
+
+  form .create-account {
+    font-size: 1.5rem;
+  }
+
+  .flex-div {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+  html {
+    font-size: 60%;
+  }
+
+  .name-content {
+    margin: 0;
+    text-align: center;
+  }
+
+  form {
+    width: 00px;
+    height: fit-content;
+  }
+
+  form input {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+
+  form .login {
+    font-size: 1.5rem;
+  }
+
+  form a {
+    font-size: 1.5rem;
+  }
+
+  form .create-account {
+    font-size: 2.5rem;
+  }
+
+  .flex-div {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  html {
+    font-size: 60%;
+  }
+
+  .name-content {
+    margin: 0;
+    text-align: center;
+  }
+
+  form {
+    width: 300px;
+    height: fit-content;
+  }
+
+  form input {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+
+  form .login {
+    font-size: 1.5rem;
+  }
+
+
+  form a {
+    font-size: 1.5rem;
+  }
+
+  form .create-account {
+    font-size: 1.5rem;
+  }
+
+  .loga{
+    background: #0f71f1;
+  }
+
+  .flex-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (orientation: landscape) and (max-height: 500px) {
+    .header {
+      height: 90vmax;
+    }
+  }  
+}
+
+/* Sign up stylesheet */
+
+
+[placeholder]{
+	width: 100%;
+	font-size: 18px;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	background: #fff;
+	border:1px solid #0000003d;
+}
+
+
+[placeholder*="st"]{
+	width: 48%;
+}
+[placeholder="last name"]{
+	float: right;
+}
+
+
+
+
+
+
+.name-surname{
+display: flex;
+justify-content: space-evenly;
+}
+.submit{
+    background-color: #1877f2;
+    outline: none;
+    border: none;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 9px;
+}
+
+
+
+.formsec{
+  background-image: url(/img/FB_IMG_1706353806921.jpg) !important;
+}
+.radio{
+  display: flex;
+  align-content: center;
+  text-align: center;
+}
+
+label{
+  margin: 5px;
+}
+
+
+
+
+hr{background: #00000026; height: 1px;}
+.b_ok{
+	background: #4267b2;
+	border: 1px solid #29487d;
+	color:white;
+	cursor: pointer;
+	padding: 5px 10px;
+	border-radius: 2px;
+	margin: 2px;
+	float: right;
+}
+.b_ok:hover{background: #365899;}
+.a_box:hover .a_cont{display: block;}
+.wid2:hover{width: 60%;}
+#male{margin-left: 20px;}
+.fs_14{font-size: 12px;}
+.fs_14 a{color:green;}
+[value="Sign Up"]{
+	background: linear-gradient(#ae559f, #884343);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    padding: 10px 20px;
+    width: 150px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+#cp{color:green;}
+
+
+.container{
+  margin: 21px;
+  display: block;
+  display: flex;
+  max-height: min-content;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  text-align: justify;
+ 
+
+
+}
+
+::placeholder{
+  text-align: center;
+}
+
+
+.post{
+  width: 100%;
+  max-height: min-content;
+  justify-content: center;
+  align-content: center;
+ text-align: center; 
+}
+
+
+.img-card{
+  display: flex;
+  align-items: center;
+ padding-top: -60px;
+ padding-right: 50px;
+ width: 100%;
+
+}
+
+.img-card span img{
+  height: 50px;
+  width: 50px;
+}
+
+
+.img-card img{
+  border-radius: 190% !important;
+  width: 20%;
+  height: 20%;
+  align-self: center;
+  margin-top: 5px;
+}
+.card-img img
+{
+  width: 25%;
+  height: 100%;
+  border-radius: 190% !important;
+}
+
+.input-post{
+  /* background-color: #03ad06; */
+  margin: 2rem;
+}
+
+.input-post
+ input{
+  border: none;
+  outline: none;
+  width: 290px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+
+.picna{
+  display: flex;
+  gap: 0% !important;
+  width: 90%;
+  margin: 5px;
+}
+
+.card-text{
+  font-size: 20px;
+}
+
+.card-subtitle{
+  margin-left: -270px;
+  color: rgb(109, 105, 105) !important;
+  font-size: 19.5px;
+}
+
+.actions a{
+  align-content: center!important;
+  justify-content: center;
+  margin: auto;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.action-like {
+  border-radius: 100%;
+  width: 60px;
+}
+
+.time input{
+  margin-top: 4px;
+  border: none;
+  font-size: 15px;
+}
+
+.col img{
+  width: 100%;
+  height: 100%;
+
+}
+
+.col{
+  row-gap: 50px;
+  align-items: center;
+  /* padding: 6px; */
+  bottom: -50%;
+
+}
+
+.article span{
+  background: black;
+}
+.artpost h1{
+  font-size: 1.6rem;
+}
+
+.about-heritage{
+  padding: 12px;
+  justify-content: space-between;
+  align-content: center;
+  margin: auto;
+}
+
+.profile-pic img{
+  border-radius: 100%;
+  height: 100px;
+  width: 100%;
+}
+
+.name-time{
+  margin: auto;
+  margin-left: 10%;
+}
+
+.rectmes{
+  margin: 20px;
+  padding: 30px;
+  text-align: center;
+}
+
+article p img{
+  border-radius: 50px;
+  float: left;
+  padding: 15px;
+  border-left: 5px solid green;
+}
+
+article p{
+  font-size: 13px;
+  padding: 10px;
+}
+
+/* friend css */
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  align-items: center;
+}
+
+.sach{
+  padding: 5px;
+  border-radius: 100%;
+  margin: 0px 10px;
+} 
+
+.link-btn button{
+  margin-left: 5px;
+  border-radius: 100px;
+ 
+}
+.link-btn{
+  padding-bottom: 50px;
+}
+
+.friend-all{
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 8px;
+  font-size: 15px;
+  
+  
+}
+.friend-all a{
+  text-decoration: none;
+}
+
+.p-pic img{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+
+}
+
+.kard{
+  gap: 50px;
+  align-items: center;
+  margin: 0px 10px 0px;
+  display: flex;
+  padding: 10px;
+
+
+}
+
+.name-btn{
+  
+  width: 100%;
+}
+.container-fluid{
+  align-content: center;
+}
+
+/* msg css */
+
+
+.head{
+display: flex;
+align-items: center;
+gap: 350px;
+}
+
+.iconz svg{
+ margin-left: 10px;
+ background: black;
+ border: none;
+ outline: none;
+ border-radius: 50%;
+ width: fit-content;
+}
+
+.profile button img{
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  object-fit:contain;
+  object-fit: contain;
+  
+
+}
+.profile button {
+  border: 2px solid green ;
+  border-radius: 100%;
+  margin-left: 9.5px;
+
+}
+.profile{
+ align-items: center;
+ justify-items: center;
+ gap: 15px;
+ height: 10vh;
+}
+
+.text-items span input{
+ border: none;
+ background: none;
+ color: gray;
+margin: 0px 20px 0px ;
+}
+.text-items{
+  display: flex;
+}
